@@ -6,7 +6,7 @@
 <Scene>
 <Background topUrl='"*sl3dlib/objects/Textures/General/Background_Stars_1.png" ' rightUrl='"*sl3dlib/objects/Textures/General/Background_Stars_1.png" ' leftUrl='"*sl3dlib/objects/Textures/General/Background_Stars_1.png" ' frontUrl='"*sl3dlib/objects/Textures/General/Background_Stars_2.png" ' bottomUrl='"*sl3dlib/objects/Textures/General/Background_Stars_2.png" ' backUrl='"*sl3dlib/objects/Textures/General/Background_Stars_2.png" '>
 </Background>
-<Transform>
+<Transform DEF='Rocket'  rotation='0 1 0 -1.5708'>
   <Transform>
     <Transform>
       <Transform>
@@ -48,5 +48,7 @@
     </Transform>
   </Transform>
 </Transform>
+<Viewpoint DEF='first_view'  centerOfRotation='300 0 0' orientation='0.5607842 0.5507725 0.6181996 2.055061' position='274.2175 -12.93086 40.60616'>
+</Viewpoint>
 </Scene>
 </X3D>

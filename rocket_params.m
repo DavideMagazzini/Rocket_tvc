@@ -4,7 +4,7 @@ close all
 
 %% Rocket parameters
 
-h                       =                         10; %Height - [m]
+h                       =                         20; %Height - [m]
 d                       =                        h/2; %Distance between c.o.m. and nozzle - [m]
 r                       =                          3; %Radius - [m]
 M                       =                       1000; %Mass - [Kg]

@@ -6,7 +6,7 @@
 <Scene>
 <Background topUrl='"*sl3dlib/objects/Textures/General/Background_Stars_1.png" ' rightUrl='"*sl3dlib/objects/Textures/General/Background_Stars_1.png" ' leftUrl='"*sl3dlib/objects/Textures/General/Background_Stars_1.png" ' frontUrl='"*sl3dlib/objects/Textures/General/Background_Stars_2.png" ' bottomUrl='"*sl3dlib/objects/Textures/General/Background_Stars_2.png" ' backUrl='"*sl3dlib/objects/Textures/General/Background_Stars_2.png" '>
 </Background>
-<Transform>
+<Transform DEF='Rocket' >
   <Transform>
     <Transform>
       <Transform>
