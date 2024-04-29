@@ -40,7 +40,19 @@
     </Box>
   </Shape>
 </Transform>
-<Viewpoint DEF='viewpoint_1'  fieldOfView='0.7854' centerOfRotation='10 0 5' orientation='0.5257387 0.5179215 0.6748008 1.954843' position='42.64696 0.07431889 21.467'>
+<Viewpoint DEF='ground_view'  fieldOfView='0.7854' centerOfRotation='10 0 5' description='Ground view' orientation='0.5257387 0.5179215 0.6748008 1.954843' position='42.64696 0.07431889 21.467'>
 </Viewpoint>
+<Transform DEF='camera' >
+  <Viewpoint DEF='camera1'  fieldOfView='0.7854' description='camera1' orientation='0.6095659 0.6419699 0.465085 2.323298' position='25.18242 3.495044 -0.5429012'>
+  </Viewpoint>
+</Transform>
+<Transform DEF='camera2' >
+  <Viewpoint fieldOfView='0.7854' orientation='0.9949545 0.1002766 0.003179189 0.3156646' position='0.4067309 -4.01526 27.35768'>
+  </Viewpoint>
+</Transform>
+<ROUTE fromNode='Rocket_body' fromField='translation' toNode='camera2' toField='translation'/>
+
+<ROUTE fromNode='Rocket_body' fromField='translation' toNode='camera' toField='translation'/>
+
 </Scene>
 </X3D>
