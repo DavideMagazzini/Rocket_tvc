@@ -17,3 +17,10 @@ Jz                      =                  1/2*M*r^2; %Moment of inertia around 
 
 g                       =                      9.81; %Gravitational acceleration - [m/s^2]
 
+
+%% Initial conditions
+
+alpha0                  =                   [0;0.05;0]; %Initial orientation of the rocket - [rad]
+x0                      =                   [0;0;0]; %Initial position of the rocket - [m]
+
+
